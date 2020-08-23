@@ -3,12 +3,13 @@ import "./style.css";
 import Row from './Row'
 import Request from './Request'
 import Banner from './Banner'
+import Nav from "./Nav"
 
 export default function App() {
   return (
     <div className="App">
       {/*Navbar */}
-
+       <Nav/>
       {/*Banner */}
       <Banner/>
 
