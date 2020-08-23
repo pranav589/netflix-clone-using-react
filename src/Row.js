@@ -21,7 +21,8 @@ function Row({title,fetchUrl,isLargeRow}){
       fetchData()
   },[fetchUrl])
    {/*fetchUrl is included in the useEffect from outside of the current component,hence it has to be included in the dependancy*/}
-console.log(movies)
+   {/*
+console.log(movies)*/}
 
 const opts = {
       height: '390',
@@ -39,7 +40,7 @@ const opts = {
       movieTrailer(movie && movie.name || "").then(url=>{
         const urlParams=new URLSearchParams(new URL(url).search)
         urlParams.get('v')
-      }).catch(err=>console.log(err.message))
+      })
     }
   }
  

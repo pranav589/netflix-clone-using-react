@@ -20,8 +20,8 @@ function Banner(){
   function truncate(str,n){
     return str && str.length > n ? str.substr(0,n-1) + '...' : str
   }
-
-  console.log(movie)
+{/*
+  console.log(movie)*/}
   return(
     <header className='banner' style={{backgroundSize:"cover",backgroundImage:`url("https://image.tmdb.org/t/p/original/${movie && movie.backdrop_path}")`,
     backgroundPosition:"center cemter"}}>{/*bg img */}
