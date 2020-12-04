@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+
+.login{
+    background-color:rgba(0,0,0,.75);
+    max-width: 450px;
+    padding: 5px 0;
+    font-family: Nunito Sans, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    
+}
+
+
+
+.sign-in,
+.sign-up{
+    background-color:  #e50914;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 59%;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+input{
+    width: 59%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.inputs{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.account{
+    color: white;
+    margin: 5px 0;
+}
+
+.sign-up{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1430px){
+	#home-wrapper{
+		max-height: 42rem;
+	}
+	#header-logo{
+		max-width: 8.37rem;
+	}
+	#center-wrapper{
+		max-width: 40rem;
+	}
+	#center-wrapper h1{
+		font-size: 3.125rem;
+    }
+}
+
+
+@media (max-width: 950px){
+    #header-logo{
+		max-width: 6.75rem;
+    }
+    #center-wrapper{
+        margin-top: 9.65rem;
+    }
+}
+
+@media (max-width: 550px){
+    #home-wrapper{
+        padding-bottom: 4.5rem;
+        height: 100vh;
+    }
+
+    .banner_bg{
+        height: 100px;
+    }
+    #center-wrapper{
+        margin-top: 5.5rem;
+    }
+    #header-logo{
+        max-width: 90px;
+        margin-left: 10%;
+    }
+    #center-wrapper h1{
+        font-size: 1.7rem;
+        padding: 0 2rem;
+    }
+
+    .login{
+        max-width: 350px;
+        padding: 10px 0;
+        
+    }
+}
+
+@media (max-width: 350px){
+    #home-wrapper{
+        padding-bottom: 3rem;
+    }
+    #center-wrapper{
+        margin-top: 4rem;
+    }
+}
